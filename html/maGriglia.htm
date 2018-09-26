@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+<head>
+<title>Home Mappatura delle competenze</title>
+<link href="stiloso.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<table width="100%">
+
+<tr height="2.5em">
+	<td width="85%" class="Mapp">Mappatura delle competenze</td>
+	<td width="15%" align="center" bgcolor="#ff8000" class="Login"><img src="home.png" alt="Account" width="15%" align="left">Pagina Iniziale</td>
+</tr>
+</table>
+<div><img class="cerchiograndi" src="omino.png" style="position:absolute;left:1em;"></div>
+</div>
+<p class="profilonome">Profilo</p>
+<p style="font-family:Arial;font-size:30px;padding:0;margin:0em;text-align:center;color:red;"><i>profilo scelto</i></p></p>
+<table class="tabellaskills" border="1" style="position:absolute;top:20em;left:5em;">
+<script language="javascript" type="text/javascript">
+var arrayskill = new Array();
+		arrayskill[0] = "JS-AngularJS 2";
+		arrayskill[1] = "JS-jQuery";
+		arrayskill[2] = "JAVA-EJB";
+		arrayskill[3] = "JAVA-JavaEE";
+		arrayskill[4] = "JSFS-NodeJS";
+		
+	var arrayprofili = new Array();
+		arrayprofili[0] = "Front-End Web Developer";
+		arrayprofili[1] = "Front-End Web Developer";
+		arrayprofili[2] = "Java EE Web Developer";
+		arrayprofili[3] = "Java EE Web Developer";
+		arrayprofili[4] = "Javascript Backend Developer";
+		
+	var arrayliv = new Array();
+		arrayliv[0] = "2";
+		arrayliv[1] = "4";
+		arrayliv[2] = "3";
+		arrayliv[3] = "2";
+		arrayliv[4] = "2";
+		document.write("<tr><td>SKILLS" +  "</td>");
+		document.write("<td>PROFILI" +  "</td>");
+		document.write("<td>LIVELLI" +  "</td>");
+	for(var c=0; c<(arrayskill.length);c++){
+		document.write("<tr><td>" + arrayskill[c] + "</td>");
+		document.write("<td>" + arrayprofili[c] + "</td>");
+		document.write("<td>" + arrayliv[c] + "</td>");
+	}
+</script>
+</table>
+<table class="tabellaskills" border="1" style="position:absolute;top:20em;left:47.6875em;">
+<script language="javascript" type="text/javascript">
+var arrayskill = new Array();
+		arrayskill[0] = "DEVOPS-Azure App Services";
+		arrayskill[1] = "DB-Relation database";
+		arrayskill[2] = "IOT-Robotics";
+		arrayskill[3] = "R&D-Elettronic circuits simulator";
+		arrayskill[4] = "DEV-Software devolpment common design pattern";
+	
+	var arrayprofili = new Array();
+		arrayprofili[0] = "DevOps Engineer";
+		arrayprofili[1] = "IoT Engineer";
+		arrayprofili[2] = "IoT Engineer";
+		arrayprofili[3] = "IoT Engineer";
+		arrayprofili[4] = "Dot Net Web Developer";
+
+
+	var arrayliv = new Array();
+		arrayliv[0] = "4";
+		arrayliv[1] = "5";
+		arrayliv[2] = "1";
+		arrayliv[3] = "2";
+		arrayliv[4] = "1";
+		document.write("<tr><td>SKILLS" +  "</td>");
+		document.write("<td>PROFILI" +  "</td>");
+		document.write("<td>LIVELLI" +  "</td>");
+	for(var c=0; c<(arrayskill.length);c++){
+		document.write("<tr><td>" + arrayskill[c] + "</td>");
+		document.write("<td>" + arrayprofili[c] + "</td>");
+		document.write("<td>" + arrayliv[c] + "</td>");
+	}
+</script>
+</table>
+<p class="nomecognomeemail" style="position:absolute;top:1.5em;left:7.5em;">Nome</p>
+<p class="nomecognomeemail" style="position:absolute;top:3.5em;left:8em;" >Cognome</p>
+<p class="nomecognomeemail" style="position:absolute;top:5.5em;left:7.5em;" >E-mail</p>
+</body>
+</html>

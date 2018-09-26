@@ -1,0 +1,128 @@
+<!doctype html>
+<html>
+<head>
+<title>Home Mappatura delle competenze</title>
+	<meta charset="utf-8">
+	<title>ciao</title>
+	<link href="jquery-ui.css" rel="stylesheet">
+	<link href="stiloso.css" rel="stylesheet" type="text/css">
+	<style>
+	.demoHeaders{
+		margin-top: 2em;
+	#sortable1, #sortable2 {
+		border: 1px solid #eee;
+		width: 142px;
+		min-height: 20px;
+		list-style-type: none;
+		margin: 0;
+		padding: 5px 0 0 0;
+		float: left;
+		margin-right: 10px;
+	}
+	#sortable1 li, #sortable2 li {
+		margin: 0 5px 5px 5px;
+		padding: 5px;
+		font-size: 1.2em;
+		width: 120px;
+	}
+	</style>
+</head>
+<body>
+<table width="100%">
+<tr height="2.5em">
+	<td width="85%" class="Mapp">Mappatura delle competenze</td>
+	<td width="15%" align="center" bgcolor="#ff8000" class="Login"><img src="home.png" alt="Account" width="15%" align="left">Pagina Iniziale</td>
+</tr>
+</table>
+<div class="rettangolo">
+<p class="didascalia"><b>Seleziona il profilo per cui ti candidi</b></p>
+	<select class="profilo" onchange="la(this.value)">
+		<option value="IoT Engineer">IoT Engineer</option>
+		<option value="ma22.htm">Java EE Web Developer</option>
+		<option value="ma21.htm">Front-End Web Developer</option>
+		<option value="ma24.htm">Data Scientist</option>
+	</select>
+</div>
+
+<div id="tabs">
+	<ul>
+		<li><a href="#tabs-1">DB</a></li>
+		<li><a href="#tabs-2">IOT</a></li>
+		<li><a href="#tabs-3">R&amp;D</a></li>
+		<li><a href="#tabs-4">SEC</a></li>
+	</ul>
+	<div class="rettangoloarancione" id="tabs-1">
+		<ul style="list-style:none;" id="sortable1" class="connectedSortable">
+			<div class="ui-state-default" style="margin:0em 2em 0em 0em;width:5.625em;height:3em;border-radius: 0.625em;display:inline-table"><div style="display:table-cell;vertical-align:middle;">Big Data</div></div>
+			<div class="ui-state-default" style="margin:0em 2em 0em 0em;width:5.625em;height:3em;border-radius: 0.625em;display:inline-table"><div style="display:table-cell;vertical-align:middle;">Relational Database</div></div>
+			<div class="ui-state-default" style="margin:0em 2em 0em 0em;width:5.625em;height:3em;border-radius: 0.625em;display:inline-table"><div style="display:table-cell;vertical-align:middle;">Document store database </div></div>
+			<div class="ui-state-default" style="margin:0em 2em 0em 0em;width:5.625em;height:3em;border-radius: 0.625em;display:inline-table"><div style="display:table-cell;vertical-align:middle;">Time series</div></div>
+			<div class="ui-state-default" style="margin:0em 2em 0em 0em;width:5.625em;height:3em;border-radius: 0.625em;display:inline-table"><div style="display:table-cell;vertical-align:middle;">Business Inteligence tools</div></div>
+			<div class="ui-state-default" style="margin:0em 2em 0em 0em;width:5.625em;height:3em;border-radius: 0.625em;display:inline-table"><div style="display:table-cell;vertical-align:middle;">Real data visualization tool</div></div>
+	</div>
+	<div class="rettangoloarancione" id="tabs-2">
+		<ul style="list-style:none;" id="sortable1" class="connectedSortable">
+			<div class="ui-state-default" style="margin:0em 2em 0em 0em;width:5.625em;height:3em;border-radius: 0.625em;display:inline-table"><div style="display:table-cell;vertical-align:middle;">Robotics <br></br></div></div>
+			<div class="ui-state-default" style="margin:0em 2em 0em 0em;width:5.625em;height:3em;border-radius: 0.625em;display:inline-table"><div style="display:table-cell;vertical-align:middle;">Analog Electronics</div></div>
+			<div class="ui-state-default" style="margin:0em 2em 0em 0em;width:5.625em;height:3em;border-radius: 0.625em;display:inline-table"><div style="display:table-cell;vertical-align:middle;">Digital Elettronics </div></div>
+			<div class="ui-state-default" style="margin:0em 2em 0em 0em;width:5.625em;height:3em;border-radius: 0.625em;display:inline-table"><div style="display:table-cell;vertical-align:middle;">Embedded sytem</div></div>
+			<div class="ui-state-default" style="margin:0em 2em 0em 0em;width:5.625em;height:3em;border-radius: 0.625em;display:inline-table"><div style="display:table-cell;vertical-align:middle;">Firmware Development</div></div>
+			<div class="ui-state-default" style="margin:0em 2em 0em 0em;width:5.625em;height:3em;border-radius: 0.625em;display:inline-table"><div style="display:table-cell;vertical-align:middle;">Home Automation</div></div>
+			<div class="ui-state-default" style="margin:0em 2em 0em 0em;width:5.625em;height:3em;border-radius: 0.625em;display:inline-table"><div style="display:table-cell;vertical-align:middle;">Industrial Automation</div></div>
+			<div class="ui-state-default" style="margin:0em 2em 0em 0em;width:5.625em;height:3em;border-radius: 0.625em;display:inline-table"><div style="display:table-cell;vertical-align:middle;">Industrial filed bus </div></div>
+		<ul style="list-style:none;" id="sortable1" class="connectedSortable">
+			<div class="ui-state-default" style="margin:0em 2em 0em 0em;width:5.625em;height:3em;border-radius: 0.625em;display:inline-table"><div style="display:table-cell;vertical-align:middle;">Real Time System</div></div>
+			<div class="ui-state-default" style="margin:0em 2em 0em 0em;width:5.625em;height:3em;border-radius: 0.625em;display:inline-table"><div style="display:table-cell;vertical-align:middle;">Sensors and sensors Network</div></div>
+			<div class="ui-state-default" style="margin:0em 2em 0em 0em;width:5.625em;height:3em;border-radius: 0.625em;display:inline-table"><div style="display:table-cell;vertical-align:middle;">Software SCADA</div></div>
+			<div class="ui-state-default" style="margin:0em 2em 0em 0em;width:5.625em;height:3em;border-radius: 0.625em;display:inline-table"><div style="display:table-cell;vertical-align:middle;">Data acquisition</div></div>
+			<div class="ui-state-default" style="margin:0em 2em 0em 0em;width:5.625em;height:3em;border-radius: 0.625em;display:inline-table"><div style="display:table-cell;vertical-align:middle;">Data ingestion platform</div></div>
+			<div class="ui-state-default" style="margin:0em 2em 0em 0em;width:5.625em;height:3em;border-radius: 0.625em;display:inline-table"><div style="display:table-cell;vertical-align:middle;">PLC Programming</div></div></ul>
+	</div>
+	<div class="rettangoloarancione" id="tabs-3">
+		<ul style="list-style:none;" id="sortable1" class="connectedSortable">
+			<div class="ui-state-default" style="margin:0em 2em 0em 0em;width:5.625em;height:3em;border-radius: 0.625em;display:inline-table"><div style="display:table-cell;vertical-align:middle;">Applied Physics</div></div>
+			<div class="ui-state-default" style="margin:0em 2em 0em 0em;width:5.625em;height:3em;border-radius: 0.625em;display:inline-table"><div style="display:table-cell;vertical-align:middle;">Electrical, electronic and mechanical measurements</div></div>
+			<div class="ui-state-default" style="margin:0em 2em 0em 0em;width:5.625em;height:3em;border-radius: 0.625em;display:inline-table"><div style="display:table-cell;vertical-align:middle;">Electronic Circuits simulation</div></div>
+			<div class="ui-state-default" style="margin:0em 2em 0em 0em;width:5.625em;height:3em;border-radius: 0.625em;display:inline-table"><div style="display:table-cell;vertical-align:middle;">Electronic boards testing and embedded system testing</div></div>
+			<div class="ui-state-default" style="margin:0em 2em 0em 0em;width:5.625em;height:3em;border-radius: 0.625em;display:inline-table"><div style="display:table-cell;vertical-align:middle;">Electronic device prototyping</div></div>
+			<div class="ui-state-default" style="margin:0em 2em 0em 0em;width:5.625em;height:3em;border-radius: 0.625em;display:inline-table"><div style="display:table-cell;vertical-align:middle;">Simulation of physical systems</div></div>
+			</div></ul>
+	<div class="rettangoloarancione" id="tabs-4">
+		<ul style="list-style:none;" id="sortable1" class="connectedSortable">
+			<div class="ui-state-default" style="margin:0em 2em 0em 0em;width:5.625em;height:3em;border-radius: 0.625em;display:inline-table"><div style="display:table-cell;vertical-align:middle;">Basic IT Security</div></div></ul>
+	</div>
+</div>
+
+<script src="jquery.js"></script>
+<script src="jquery-ui.js"></script>
+<script>
+$( "#tabs" ).tabs();
+</script> 
+<script>
+  $( function() {
+    $( "#sortable1, #sortable2, #sortable3, #sorteble4, #sorteble5").sortable({
+      connectWith: ".connectedSortable"
+    }).disableSelection();
+  } );
+  function la(src)
+  {
+  window.location=src;
+  }
+  </script>
+<p class="lv1">Lv.1</p>
+<li id="sortable3" style="list-style:none;width: 5.625em;min-height:5.625em;background-color:#ff8000;border-radius: 0.625em;position:absolute;top:31.125em;left:4.375em;list-style-position: outside;" class="connectedSortable">
+</li>
+<p class="lv2">Lv.2</p>
+<li id="sortable3" style="list-style:none;width: 5.625em;min-height:5.625em;background-color:#ff8000;border-radius: 0.625em;position:absolute;top:31.125em;left:13.75em;list-style-position: outside;" class="connectedSortable">
+</li>
+<p class="lv3">Lv.3</p>
+<li id="sortable3" style="list-style:none;width: 5.625em;min-height:5.625em;background-color:#ff8000;border-radius: 0.625em;position:absolute;top:31.125em;left:23.125em;list-style-position: outside;" class="connectedSortable">
+</li>
+<p class="lv4">Lv.4</p>
+<li id="sortable3" style="list-style:none;width: 5.625em;min-height:5.625em;background-color:#ff8000;border-radius: 0.625em;position:absolute;top:31.125em;left:32.5em;list-style-position: outside;" class="connectedSortable">
+</li>
+<button type="button" Class="salva"><b>Salva</b></button>
+<button type="button" Class="salva2"><b>Salva e aggiungi un altro profilo</b></button>
+<button type="button" Class="salva3"><b>Salva e chiudi</b></button>
+</body>
+</html>
