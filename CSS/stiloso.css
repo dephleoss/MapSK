@@ -1,0 +1,206 @@
+*{
+	font-size:16px;}
+.Mapp{
+	font-family:Comic Sans MS;
+	color:#ff8000}
+.Login{
+	font-family:Comic Sans MS;
+	color:#ffffff}
+table{
+	background-color:#D1E3A9}
+.skill1{
+	font-family:Comic Sans MS;
+	color:#707070;
+	font-size:40px;
+	text-align:center;
+	height:0.25em}
+.skill2{
+	font-family:Comic Sans MS;
+	color:#707070;
+	font-size:55px;
+	text-align:center}
+div{
+	text-align:center}
+.novo{
+	background-color:#ff8000;
+	width:15.625em;
+	height:15.625em;
+	background-image:url(../res/fass.png);
+	background-repeat:no-repeat;
+	background-size:12.5em 12.5em;
+	background-position:center;
+	border-radius: 1.25em;}
+.rettangolo{
+	margin: auto;
+	width: 22%;
+    border: 0.125em solid black;
+    padding: 0.125em;
+	border-radius: 0.625em;
+	position:relative;
+	top:1.25em;}
+.didascalia{
+	font-family:arial;
+	font-size:15px}
+.profilo{
+	width:16.688em;
+	height:2.188em}
+.rettangolouno{
+	width: 4.375em;
+	height:2.813em;
+	background-color:#ff8000;
+	border-radius: 0.625em 0.625em 0px 0px;
+	position:absolute;
+	top:9.688em;
+	left:2.188em}
+.rettangolodue{
+	width: 4.375em;
+	height:2.188em;
+	background-color:yellow;
+	border-radius: 0.625em 0.625em 0px 0px;
+	position:absolute;
+	top:10.313em;
+	left:6.625em}
+.rettangolotre{
+	width: 4.375em;
+	height:2.188em;
+	background-color:yellow;
+	border-radius: 0.625em 0.625em 0px 0px;
+	position:absolute;
+	top:10.313em;
+	left:11.063em}
+.rettangoloquattro{
+	width: 4.375em;
+	height:2.188em;
+	background-color:yellow;
+	border-radius: 0.625em 0.625em 0px 0px;
+	position:absolute;
+	top:10.313em;
+	left:15.5em}
+.rettangolocinque{
+	width: 4.375em;
+	height:2.188em;
+	background-color:yellow;
+	border-radius: 0.625em 0.625em 0px 0px;
+	position:absolute;
+	top:10.313em;
+	left:19.938em}
+.rettangoloarancione{
+	background-color:#ff8000;
+	text-align:center;
+	width: 95%;
+	height: 13em;
+	border-radius: 0px 0.938em 0.938em 0.938em;
+	}
+.lv1{
+	position:absolute;
+	top:31em;
+	height:1.667em;
+	left:6.667em;
+	font-size:15px;
+	color:black;
+	font-family:arial}
+.lv2{
+	position:absolute;
+	top:31em;
+	height:1.667em;
+	left:16.667em;
+	font-size:15px;
+	color:black;
+	font-family:arial}
+.lv3{
+	position:absolute;
+	top:31em;
+	height:1.667em;
+	left:26.667em;
+	font-size:15px;
+	color:black;
+	font-family:arial}
+.lv4{
+	position:absolute;
+	top:31em;
+	height:1.667em;
+	left:36.667em;
+	font-size:15px;
+	color:black;
+	font-family:arial}
+.salva{
+	background-color:#29FF00;
+	position:absolute;
+	left:36em;
+	top:19em;
+	width:auto;
+	font-size:25px;
+	color:white;
+	border-radius: 0.48em;
+	text-align:left;}
+.salva2{
+	background-color:#29FF00;
+	position:absolute;
+	left:36em;
+	top:21em;
+	width:auto;
+	font-size:25px;
+	color:white;
+	border-radius: 0.48em;
+	text-align:left;}
+.salva3{
+	background-color:#29FF00;
+	position:absolute;
+	left:36em;
+	top:23em;
+	width:auto;
+	font-size:25px;
+	color:white;
+	border-radius: 0.48em;
+	text-align:left}
+.textbox{
+	background-color:#FFB35D;
+	border:none;
+	width:19em;
+	border-radius: 0.48em;
+	height:2.906em;}
+.centraturatext{
+	margin: 0 auto;
+	width:auto;}
+.cerchiograndi{
+	width:10em;
+	height:10em;
+}
+.profilonome{	
+	text-align:center;
+	font-family:Arial;
+	font-size:40px;
+	padding:0px;
+	margin:0;}
+.modifica{
+	width:1.5em;
+	height:1.5em;
+	position:absolute;
+	left:50em;
+	background-color:#ff8000;
+	border-radius:0.3em;
+	background-image:url(../res/modifica.png);
+	background-repeat:no-repeat;
+	background-size:1em 1em;
+	background-position:center;}
+.tabellaskills{
+	width:30em;
+	height:15em;
+}
+.nomecognomeemail{
+	font-size:1.5em;
+}
+.skill{
+	top:10em;
+	height:5em;
+	width:5em;
+	font-size:16px;
+	background-color:#ffffff;
+	color:#000000;
+	border-radius: 1em;
+	font-family:arial}
+}
+.tab{
+	position:absolute;
+	top:30em;
+}
